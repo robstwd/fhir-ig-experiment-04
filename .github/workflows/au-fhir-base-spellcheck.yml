@@ -25,3 +25,4 @@ jobs:
         with:
           config_path: config/.spellcheck-hl7au.yml
           task_name: Markdown
+          output_file: spellcheck-output.txt
