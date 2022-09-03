@@ -1,4 +1,4 @@
-name: Spellcheck Action
+name: Spellcheck hl7au/au-fhir-base
 on: push
 
 jobs:
@@ -19,3 +19,11 @@ jobs:
           
       - name: print contents of repo
         run: ls -la au-fhir-base
+        
+      - name: checkout spellcheck action
+        uses: rojopolis/spellcheck-github-actions@0.26.0
+        
+      - name: Spellcheck hl7au/au-fhir-base
+        with:
+          config_path: config/.spellcheck-hl7au.yml
+          task_name: Markdown
