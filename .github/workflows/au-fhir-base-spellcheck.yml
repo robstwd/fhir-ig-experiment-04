@@ -1,0 +1,21 @@
+name: Spellcheck Action
+on: push
+
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    name: clone hl7au/au-fhir-base
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout this repo
+        uses: actions/checkout@v3
+
+      - name: Clone and checkout hl7au/au-fhir-base repo
+        uses: actions/checkout@v3
+        with:
+          repository: hl7au/au-fhir-base
+          path: au-fhir-base
+          
+      - name: print contents of repo
+        run: ls -la au-fhir-base
