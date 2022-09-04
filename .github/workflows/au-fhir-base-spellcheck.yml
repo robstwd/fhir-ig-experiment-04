@@ -2,9 +2,10 @@ name: Spellcheck hl7au/au-fhir-base
 on: push
 
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    name: clone hl7au/au-fhir-base
+    name: spellcheck au-fhir-base markdown files
+    permissions:
+      actions: read
     runs-on: ubuntu-latest
 
     steps:
