@@ -1,0 +1,34 @@
+name: Spellcheck hl7au/au-fhir-core
+on: push
+
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    name: clone hl7au/au-fhir-core
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout this repo
+        uses: actions/checkout@v3
+
+      - name: Clone and checkout hl7au/au-fhir-base repo
+        uses: actions/checkout@v3
+        with:
+          repository: hl7au/au-fhir-core
+          path: au-fhir-core
+          
+      - name: print contents of repo
+        run: ls -la au-fhir-core
+        
+      - name: Spellcheck hl7au/au-fhir-core
+        uses: rojopolis/spellcheck-github-actions@0.26.0
+        with:
+          config_path: config/.spellcheck-hl7au-core.yml
+          task_name: Markdown
+          # output_file: spellcheck-output.txt
+          
+      # - name: Upload output file
+      #   uses: actions/upload-artifact@v3
+      #   with:
+      #     name: output.txt
+      #     path: spellcheck-output.txt
