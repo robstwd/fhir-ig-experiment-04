@@ -1,0 +1,19 @@
+matrix:
+- name: Markdown
+  aspell:
+    lang: en
+  dictionary:
+    wordlists:
+    - config/.wordlist-hl7au.txt
+    encoding: utf-8
+  pipeline:
+  - pyspelling.filters.markdown:
+  - pyspelling.filters.html:
+      comments: false
+      ignores:
+      - code
+      - pre
+  sources:
+  - 'au-fhir-core/input/intro-notes/*.md'
+  - 'au-fhir-core/input/pagecontent/*.md'
+  default_encoding: utf-8
