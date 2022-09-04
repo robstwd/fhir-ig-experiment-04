@@ -4,7 +4,7 @@ on: push
 jobs:
   # This workflow contains a single job called "build"
   build:
-    name: clone hl7au/au-fhir-core
+    name: spellcheck au-fhir-core markdown files
     runs-on: ubuntu-latest
 
     steps:
