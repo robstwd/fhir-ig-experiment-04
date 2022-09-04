@@ -1,4 +1,4 @@
-name: Spellcheck hl7au/au-fhir-base
+name: Validate hl7au/au-fhir-base resource profiles
 on: push
 
 jobs:
