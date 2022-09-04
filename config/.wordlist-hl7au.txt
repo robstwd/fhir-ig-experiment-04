@@ -41,6 +41,7 @@ chlorsig
 Clarithromycin
 CMM
 CodeSystem
+codesystems
 codings
 Comirnaty
 conformant
@@ -177,6 +178,7 @@ urls
 UUU
 valueset
 ValueSet
+valuesets
 varicella
 WG
 XCN
