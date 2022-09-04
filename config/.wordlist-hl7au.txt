@@ -170,6 +170,8 @@ NSW
 Nundah
 OID
 OBR
+operationdefinitions
+operationdefinition
 oximeter
 PAI
 pbs
@@ -240,6 +242,7 @@ valueCoding
 valueString
 valueset
 ValueSet
+ValueSets
 valuesets
 varicella
 verificationStatus
