@@ -23,7 +23,7 @@ jobs:
       - name: Spellcheck hl7au/au-fhir-base
         uses: rojopolis/spellcheck-github-actions@0.26.0
         with:
-          config_path: config/.spellcheck-hl7au.yml
+          config_path: config/.spellcheck-hl7au-base.yml
           task_name: Markdown
           # output_file: spellcheck-output.txt
           
