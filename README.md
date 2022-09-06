@@ -14,9 +14,9 @@ and using the action https://github.com/rojopolis/spellcheck-github-actions
 
 #### Resource StructureDefinition files
 
-[![Validate metadata](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-base-profile-validate-metadata.yml/badge.svg)](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-base-profile-validate-metadata.yml)
+[![Validate hl7au/au-fhir-base resource profiles - core spec](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-base-profile-validate-core.yml/badge.svg)](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-base-profile-validate-core.yml)
 
-[![Validate core spec](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-base-profile-validate-core.yml/badge.svg)](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-base-profile-validate-core.yml)
+[![Validate hl7au/au-fhir-base resource profiles - metadata](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-base-profile-validate-metadata.yml/badge.svg)](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-base-profile-validate-metadata.yml)
 
 ### au-fhir-core
 
@@ -26,4 +26,4 @@ and using the action https://github.com/rojopolis/spellcheck-github-actions
 
 #### Resource StructureDefinition files
 
-[![Validate core spec](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-base-profile-validate-core.yml/badge.svg)](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-base-profile-validate-core.yml)
+[![Validate hl7au/au-fhir-core resource profiles - core spec](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-core-profile-validate-core.yml/badge.svg)](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-core-profile-validate-core.yml)
