@@ -1,4 +1,4 @@
-name: Validate hl7au/au-fhir-base resource profiles
+name: Validate hl7au/au-fhir-base resource profiles - metadata
 on: push
 
 jobs:
@@ -24,10 +24,6 @@ jobs:
         
       - name: Download FHIR validator
         run: wget -q https://github.com/hapifhir/org.hl7.fhir.core/releases/latest/download/validator_cli.jar -O validator.jar
-
-      - name: Validate StructureDefinition resources, against core FHIRVersion 4.0.1
-        run: java -jar validator.jar -version 4.0.1 au-fhir-base/resources/au-*.xml
-        continue-on-error: true
 
       - name: Validate StructureDefinition resources, against the meta StructureDefinition profile that checks metadata
         run: java -jar validator.jar -version 4.0.1 au-fhir-base/resources/au-*.xml -ig https://robstwd.github.io/fhir-ig-experiment-01/package.tgz -profile "https://about.me/robeastwood/fhir/ig/StructureDefinition/structuredefinition-hl7au-sdf-1"

@@ -10,12 +10,20 @@ and using the action https://github.com/rojopolis/spellcheck-github-actions
 ### au-fhir-base
 
 #### markdown files
-[![Spellcheck hl7au/au-fhir-base](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-base-spellcheck.yml/badge.svg)](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-base-spellcheck.yml)
+[![Spellcheck](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-base-spellcheck.yml/badge.svg)](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-base-spellcheck.yml)
 
 #### Resource StructureDefinition files
-[![Validate hl7au/au-fhir-base resource profiles](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-base-profile-validate.yml/badge.svg)](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-base-profile-validate.yml)
+
+[![Validate metadata](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-base-profile-validate-metadata.yml/badge.svg)](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-base-profile-validate-metadata.yml)
+
+[![Validate core spec](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-base-profile-validate-core.yml/badge.svg)](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-base-profile-validate-core.yml)
 
 ### au-fhir-core
 
 #### markdown files
-[![Spellcheck hl7au/au-fhir-core](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-core-spellcheck.yml/badge.svg)](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-core-spellcheck.yml)
+
+[![Spellcheck](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-core-spellcheck.yml/badge.svg)](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-core-spellcheck.yml)
+
+#### Resource StructureDefinition files
+
+[![Validate core spec](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-base-profile-validate-core.yml/badge.svg)](https://github.com/robstwd/fhir-ig-experiment-04/actions/workflows/au-fhir-base-profile-validate-core.yml)
