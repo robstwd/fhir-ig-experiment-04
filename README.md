@@ -1,5 +1,5 @@
 # fhir-ig-experiment-04
-Another bunch of FHIR-relate experiments
+Another bunch of FHIR-related experiments
 
 ## Markdown file spell checking
 Inspired by Javier Brea's post https://www.javierbrea.com/blog/spellcheck-github-action/
