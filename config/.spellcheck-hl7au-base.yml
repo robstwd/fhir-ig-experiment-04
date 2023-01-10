@@ -14,12 +14,6 @@ matrix:
       - code
       - pre
   sources:
-  - 'au-fhir-base/pages/_includes/*-intro.md'
-  - 'au-fhir-base/pages/_includes/downloads.md'
-  - 'au-fhir-base/pages/_includes/extensions.md'
-  - 'au-fhir-base/pages/_includes/guidance.md'
-  - 'au-fhir-base/pages/_includes/history.md'
-  - 'au-fhir-base/pages/_includes/intro.md'
-  - 'au-fhir-base/pages/_includes/profiles.md'  
-  - 'au-fhir-base/pages/_includes/terminology.md'  
+  - 'au-fhir-base/input/intro-notes/*.md'
+  - 'au-fhir-base/input/pagecontent/*.md'  
   default_encoding: utf-8
